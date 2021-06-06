@@ -1,0 +1,136 @@
+a, 
+a:focus,
+a:active,  
+select,
+button,
+button:active,
+button:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus,
+input { outline: none; }
+
+input[type='file'] {
+  opacity:0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  outline: none;
+  cursor: inherit;
+  font-size: 100px;
+}
+textarea { resize: vertical; }
+
+select {
+    /*border: 2px solid #E6E6E6 !important;
+    background: transparent;
+    color: #5A5A5A;*/
+   width: 100%;
+  padding: 6px 5px 6px 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: normal !important;
+  color: #5A5A5A;
+  border: 2px solid #E6E6E6;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-image: url('../img/arrow.png') !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+.display-none {
+    display: none;
+}
+
+/*******************
+ * Margin Zero
+ * *****************
+ */
+.margin-zero {
+    margin: 0 !important;
+}
+.margin-bottom-zero {
+    margin-bottom: 0 !important;
+}
+.margin-top-zero {
+    margin-top: 0 !important;
+}
+.margin-right-zero {
+    margin-right: 0 !important;
+}
+.margin-left-zero {
+    margin-left: 0 !important;
+}
+
+/*******************
+ * Padding Zero
+ * *****************
+ */
+.padding-zero {
+    padding: 0 !important;
+}
+.padding-right-zero {
+    padding-right: 0 !important;
+}
+.padding-left-zero {
+    padding-left: 0 !important;
+}
+.padding-bottom-zero {
+    padding-bottom: 0 !important;
+}
+.padding-top-zero {
+    padding-top: 0 !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.header {
+    font-size: 16px  !important;
+}
+.logo {
+    font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+    }
+}
+.none-overflow {
+    text-overflow: inherit !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.myicon-right {
+    margin-right: 4px;
+}
+.no-found {
+    margin-bottom: 20px;
+    color: #999;
+}
+.box-file {
+    position: relative;
+    overflow: hidden;
+}
+.margin-separator {
+	 margin: 0 5px;
+}
+.displayInline {
+	display: inline;
+}
